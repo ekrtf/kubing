@@ -2,7 +2,7 @@
 
 const config = {
 	service: {
-		port: 1111
+		port: process.env.PORT || 1111
 	}
 };
 
